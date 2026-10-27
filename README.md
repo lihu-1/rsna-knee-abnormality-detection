@@ -1,7 +1,6 @@
 # Team-selected best inference notebook
 
-This folder publishes the inference notebook selected by the team as its best candidate. The source is based on the supplied `knee-team-all-lb (14).ipynb` and is associated with Kaggle notebook version [360860299](https://www.kaggle.com/code/lihu6666/knee-team-all-lb?scriptVersionId=360860299). The local file is a clean source copy: saved outputs and execution counts were cleared before publication. No leaderboard score is asserted from this file alone.
-
+This folder publishes the inference notebook selected by the team as its best candidate. 
 ## Model and fusion configuration
 
 | Branch | Contents | Weight |
