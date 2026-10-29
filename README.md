@@ -43,3 +43,7 @@ The Team runner and the Max/R7 orchestration are present in the notebook. At run
 
 Notebook JSON and Python syntax were checked locally. Full inference was not run here because the Kaggle competition DICOMs, GPU, and mounted checkpoint/code datasets are available only in the Kaggle runtime. The original Notebook is left untouched; this repository copy has no saved outputs.
 
+
+## License and third-party terms
+
+The team's original contributions in this repository are licensed under [CC BY-NC 4.0](LICENSE), to the extent the team has rights to license them. Third-party code, models, and weights remain subject to their own licenses. In particular, DINOv3-based checkpoints are subject to the [DINOv3 License](third_party/DINOv3_LICENSE.md), which must accompany distributions where applicable. The Kaggle dataset license field does not replace upstream terms.
