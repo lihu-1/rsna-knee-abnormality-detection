@@ -9,6 +9,8 @@ This folder publishes the inference notebook selected by the team as its best ca
 | Max | Max's all-window CoAtNet consensus bundle | 21% |
 | R7 | Heliosli R7, arm `E_lrprior` | 9% |
 
+The DINOv2 weight package contains seeds 42, 43, 44, and 45. The final inference uses only seeds **42, 43, and 44**; seed 45 is not used in the ensemble.
+
 TTA follows the notebook configuration: DINOv2 seed42 and EfficientNetV2-S seed42 use -12°/0°/+12°; remaining seeds use 0°. DINOv3 uses only 0°. All four newconv folds use -12°/0°/+12°. The selected Team branch does not include S6, TinyViT, or RadImageNet ResNet50.
 
 The final stage converts each branch's per-label predictions to percentile ranks, applies the configured weighted noisy-OR rank blend, then applies the sibling corrections:
